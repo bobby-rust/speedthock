@@ -50,12 +50,12 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam) {
         case 88: // x
         case 89: // y
         case 90: // z
-          
+          break;      
       }
       // if (pKeyStruct->vkCode == 60) {
       //   PlaySound(&engine);
       // }
-      ma_PlaySound(&engine);
+      ma_PlaySound("sounds/nk-cream/a.wav");
     }
   }
 

@@ -6,12 +6,12 @@ SRC = main.c
 RES = example.res
 OUT = main.exe
 
-all: $(OUT)
+build: $(OUT)
 
 $(OUT): $(SRC) $(RES)
-  $(CC) $(CFLAGS) -o $(LDFLAGS)
+	$(CC) $(CFLAGS) -o main.exe main.c $(LDFLAGS)
 
 clean:
-  del $(OUT)
+	del $(OUT)
 
 .PHONY: all clean

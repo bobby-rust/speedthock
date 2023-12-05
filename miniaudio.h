@@ -75756,7 +75756,7 @@ MA_API ma_result ma_engine_play_sound_ex(ma_engine* pEngine, const char* pFilePa
 
 MA_API ma_result ma_engine_play_sound(ma_engine* pEngine, const char* pFilePath, ma_sound_group* pGroup)
 {
-    return ma_engine_play_sound_ex(pEngine, pFilePath, pGroup, 0);
+    return ma_engine_play_sound_ex(pEngine, pFilePath, pGroup, -1);
 }
 #endif
 

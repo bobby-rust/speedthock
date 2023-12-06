@@ -1,0 +1,12 @@
+[
+    {
+        "directory": "/mnt/c/Code/C/speedthock",
+        "arguments": [
+            "/usr/bin/x86_64-w64-mingw32-c++",
+            "-I./headers",
+            "-I/usr/lib/gcc/x86_64-w64-mingw32/10-win32/include/c++",
+            "-I/usr/lib/gcc/x86_64-w64-mingw32/10-win32/include/c++/x86_64-w64-mingw32"
+        ],
+        "file": "main.c"
+    }
+]

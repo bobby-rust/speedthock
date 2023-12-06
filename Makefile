@@ -28,7 +28,7 @@
 
 # .PHONY: build clean
 
-CC=clang
+CC=x86_64-w64-mingw32-gcc
 CFLAGS=-Wall -Wextra
 LDFLAGS=-luser32
 VERSION=v0.1.1
@@ -38,7 +38,7 @@ MANIFEST = speedthock.exe.manifest
 
 # Target for development build
 dev: main.c
-	$(CC) $(CFLAGS) $^ -o SpeedThock_dev.exe $(LDFLAGS)
+	$(CC) $(CFLAGS) $^ -o /mnt/c/Code/C/speedthock/speedthock_dev.exe $(LDFLAGS)
 
 # Target for production build
 prod: main.c
